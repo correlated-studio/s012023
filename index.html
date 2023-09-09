@@ -2,7 +2,8 @@
 <html>
     
 <head>
-    <title>c o r r e l a t e d</title>      
+    <title>c o r r e l a t e d</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
     </head>
     
     <style>
@@ -126,7 +127,23 @@ mark {
 font-family: sans-serif;
 font-size: 2vw;
 background-color: chartreuse;
-color: black;        
+color: black; 
+}
+        
+div.a {
+    height: 90%;
+    width: 90%;
+    padding: 4px;
+    margin-left: 5%;
+    margin-right:  5%;
+}
+        
+model-viewer{
+     
+position:absolute;
+width:inherit;
+height:inherit;
+    }
         
     </style>  
 
@@ -157,7 +174,7 @@ including: fundamental physics theories, art, and web design, amongst others. Th
 
     <details><summary>
 exhibition layouts
-</summary>
+</summary>  
 <object type="image/svg+xml" data="layout1.svg"></object>
 </details>
     
