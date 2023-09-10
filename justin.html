@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>c o r r e l a t e d</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+    </head>
+    
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');    
+
+        
+     details > summary {
+
+        background-color:none;
+        text-transform:uppercase;
+        margin-top: 2%;
+        list-style: none;
+        display: inline;
+        text-align: left;
+        font-family: 'VT323', monospace;
+        line-height: 95%;
+        font-size: 2vw;
+        color: black;
+        padding: 4px;
+        margin-left: 5%;
+        margin-right:  5%;
+        cursor:pointer;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+  
+    
+details > p {
+    font-family: sans-serif;
+    color: black;
+    padding: 4px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  
+}    
+        
+H1 {
+  font-family: sans-serif;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+        font-weight: bold;
+        line-height: 95%;
+        font-size: 6.5vw;
+        color: black;
+        padding: 4px;
+        margin-left: 12.5%;
+        margin-right:  12.5%;
+  }
+
+ .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+     pointer-events: none;
+      }
+    
+    p {
+    font-family: 'IBM Plex Mono', monospace;
+        text-align:justify;
+        text-transform: none;
+        font-size: 2vw;
+        color: black;
+        margin-left: 12.5%;
+        margin-right:  12.5%;
+        cursor: none;
+    }
+    
+    hr {
+  border-top: 1px solid black;
+}
+    
+    
+marquee {
+font-family: 'VT323', monospace;
+text-transform:uppercase;
+font-size: 2vw;
+color: black;
+margin-top: 2%;
+        }
+
+        marquee > p {
+            color: black;
+        }        
+        
+a:visited { 
+  color: blue;
+}
+
+mark {
+
+font-family: sans-serif;
+font-size: 2vw;
+background-color: chartreuse;
+color: black; 
+}
+        
+div.a {
+    height: 90%;
+    width: 90%;
+    padding: 4px;
+    margin-left: 5%;
+    margin-right:  5%;
+}
+        
+model-viewer{
+     
+position:absolute;
+width:inherit;
+height:inherit;
+    }
+        
+    </style>  
+
+     <marquee width="100%" direction="left" height="2%">
+<em>“It is entropy, not energy, that keeps stones on the ground and the world turning.” - Carlo Rovelli, 2017</em>
+        </marquee>
+    
+        <marquee width="100%" direction="right" height="1%">
+       <p><em>&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;	&rarr;</em></p>
+             </marquee>
+    
+    <div class="sticky">
+    <object type="image/svg+xml" data="banner.svg"></object>
+      </div>
+    
+    <div class="a">       
+<model-viewer src="justin.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="2" environment-image="legacy" auto-rotate min-camera-orbit="auto auto 1786m" min-field-of-view="13.75deg" shadow-softness="0"> </model-viewer>
+
+
+       </div> 
+
+    
+    
+    
+</html>
