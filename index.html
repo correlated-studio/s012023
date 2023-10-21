@@ -11,23 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');     
 
-        
-H1 {
-  font-family:  'VT323', monospace;
-			text-transform: uppercase;
-        font-weight:normal;
-        font-size: 3.5vw;
-        color: black;
-        padding: 5%vw;
-        margin-left: 5%;
-        margin-right: 5%;
-     position: -webkit-sticky;
-        position: sticky;
-        top: 1%;
-        padding: 5px;
-     pointer-events: none;
-      
-  }
+ 
 
  .sticky {
         position: -webkit-sticky;
@@ -64,23 +48,40 @@ margin-top: 2%;
         marquee > p {
             color: black;
         }        
-        
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
 a:visited { 
-  color: blue;
+  color: black;
 }
 
         
 div.a {
-    height: 90%;
+    height: 100%;
     width: 90%;
-    padding: 4px;
     margin-left: 5%;
     margin-right: 5%;
 }
+
+button {
+font-family: 'VT323', monospace;
+text-transform:capitalize;
+    font-size: 3vw;
+    color: black;
+  border: none;
+  background-color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}        
         
 model-viewer{
      
 position:absolute;
+    top: 10vw;
 width:inherit;
 height:inherit;
     }
@@ -103,7 +104,7 @@ height:inherit;
     <div class="a">       
 <model-viewer src="atom.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0" shadow-softness="0" camera-orbit="-812.7deg 116.3deg 3144m" field-of-view="30deg" min-camera-orbit="auto auto 3144m" min-field-of-view="30deg" auto-rotate>
     <button class="Hotspot" slot="hotspot-2" data-position="-73.83979978748698m -60.80560424389046m -120.22914978855489m" data-normal="0.5867855389182014m -0.6151158647720077m -0.5266072580417602m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">CURRENT WORK</div>
+        <a href=s22023ex.html><div class="HotspotAnnotation">CURRENT WORK</div></a>
     </button><button class="Hotspot" slot="hotspot-4" data-position="506.8499467641209m -497.3581239762141m -206.42884166071437m" data-normal="-0.943392216649667m -0.33163858609669344m -0.005193628463228739m" data-visibility-attribute="visible">
         <div class="HotspotAnnotation">ARCHIVE</div>
     </button><button class="Hotspot" slot="hotspot-5" data-position="-416.350864421913m 332.1257918013457m -174.80708689669882m" data-normal="-0.35345383364116756m -0.825485584352885m -0.440049926156042m" data-visibility-attribute="visible">
