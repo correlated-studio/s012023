@@ -2,84 +2,31 @@
 <html>
     
 <head>
-    <title>c o r r e l a t e d</title>
+    <title>c o r r e l a t e d - HARISH</title>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
     </head>
     
     <style>
         
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-        
-body {
-        background: linear-gradient(180deg, #ffffff, #ffffff, #00ff01);
-    background-size: 2% 375%;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');     
 
-    -webkit-animation: Animation 25s ease infinite;
-    -moz-animation: Animation 25s ease infinite;
-    animation: Animation 25s ease infinite;
-}
-
-@-webkit-keyframes Animation {
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
-}
-@-moz-keyframes Animation {
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
-}
-@keyframes Animation { 
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
-}
-
-        
-     details > summary {
-
-        background-color:none;
-        text-transform:uppercase;
-        margin-top: 2%;
-        list-style: none;
-        display: inline;
-        text-align: left;
-        font-family: 'VT323', monospace;
-        line-height: 95%;
-        font-size: 2vw;
-        color: black;
-        padding: 4px;
-        margin-left: 5%;
-        margin-right:  5%;
-        cursor:pointer;
-}
-
-details > summary::-webkit-details-marker {
-  display: none;
-}
-  
-    
-details > p {
-    font-family: sans-serif;
-    color: black;
-    padding: 4px;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
-  
-}    
         
 H1 {
-  font-family: sans-serif;
-			letter-spacing: 0.1em;
+  font-family:  'VT323', monospace;
 			text-transform: uppercase;
-        font-weight: bold;
-        line-height: 95%;
-        font-size: 6.5vw;
+        font-weight:normal;
+        font-size: 3.5vw;
         color: black;
-        padding: 4px;
-        margin-left: 12.5%;
-        margin-right:  12.5%;
+        padding: 5%vw;
+        margin-left: 5%;
+        margin-right: 5%;
+     position: -webkit-sticky;
+        position: sticky;
+        top: 1%;
+        padding: 5px;
+     pointer-events: none;
+      
   }
 
  .sticky {
@@ -94,10 +41,10 @@ H1 {
     font-family: 'IBM Plex Mono', monospace;
         text-align:justify;
         text-transform: none;
-        font-size: 2vw;
+        font-size: 2.2vw;
         color: black;
-        margin-left: 12.5%;
-        margin-right:  12.5%;
+        margin-left: 5%;
+        margin-right: 5%;
         cursor: none;
     }
     
@@ -122,20 +69,13 @@ a:visited {
   color: blue;
 }
 
-mark {
-
-font-family: sans-serif;
-font-size: 2vw;
-background-color: chartreuse;
-color: black; 
-}
         
 div.a {
     height: 90%;
     width: 90%;
     padding: 4px;
     margin-left: 5%;
-    margin-right:  5%;
+    margin-right: 5%;
 }
         
 model-viewer{
@@ -158,29 +98,26 @@ height:inherit;
     <div class="sticky">
     <object type="image/svg+xml" data="banner.svg"></object>
       </div>
+   
     
-    <details><summary>
-about
-</summary>
+    <div class="a">       
+<model-viewer src="atom.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0" auto-rotate shadow-softness="0">
+    <button class="Hotspot" slot="hotspot-2" data-position="11.416353602304525m 386.2326705493281m -630.3342928406669m" data-normal="0.440303251259255m 0.44830779742604965m 0.7779159117138132m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">ABOUT</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="546.3539058252941m -478.43726889340587m -189.56040020383762m" data-normal="0.6538402794922662m 0.4021181361092102m 0.6409320506305877m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">LINKS</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="8.553869254055684m 207.07694738999817m 231.61851581201336m" data-normal="0.10009260289401967m 0.5756895031524863m 0.8115189873354434m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">CURRENT WORK</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-574.3906553025586m 143.88004886889462m -128.1878604857402m" data-normal="-0.5201006328071422m -0.06671453330170843m 0.8514954508392547m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">ARCHIVE
+        </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
 
-<p>
-Students will be required to design, document, fabricate, and plan the exhibition of their individual installations utilising architectural communication techniques.
-<br><br>    
-Throughout the semester, students can expect to engage with -and refer to- topics and disciplines outside of the architecture realm
-including: fundamental physics theories, art, and web design, amongst others. This semester's driving topic is quantum entanglement.
-<br>
-<br>
-</p></details>
-
-    <details><summary>
-exhibition layouts
-</summary>  
-<object type="image/svg+xml" data="layout1.svg"></object>
-</details>
+  </div> 
     
-    
-    <div class="sticky">
-    <object type="image/svg+xml" data="foreground.svg"></object>
-      </div>
     
 </html>
