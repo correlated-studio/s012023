@@ -84,7 +84,20 @@ position:absolute;
 width:inherit;
 height:inherit;
     }
-        
+             summary {
+font-family: 'VT323', monospace;
+text-transform:uppercase;
+font-size: 2vw;
+color: black;
+
+margin-right: 5%;
+}
+
+        details {
+        margin-left: 5%;
+margin-right: 5%;
+        }
+                  
     </style>  
 
      <marquee width="100%" direction="left" height="2%">
@@ -98,8 +111,12 @@ height:inherit;
     <div class="sticky">
     <object type="image/svg+xml" data="banner.svg"></object>
       </div>
-    <h1><em>TYSON LEE / year 3 / Time Morph </em></h1>
-    
+    <h1><em>TYSON LEE / year 3 / The Spatial Conversation </em></h1>
+    <details>
+  <summary>drawings</summary>
+      <br>
+ <object type="image/svg+xml" data="tysonbanner.svg"></object>              
+</details>
     <div class="a">       
 <model-viewer disable-zoom src="tyson.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="2" environment-image="legacy" auto-rotate min-camera-orbit="auto auto 1786m" min-field-of-view="13.75deg" shadow-softness="0"> </model-viewer>
   </div> 
